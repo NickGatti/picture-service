@@ -10,7 +10,7 @@ const agentTypes = ['listing', 'premier'];
 const CSVPath = path.join(__dirname, 'pictureSeedData.csv');
 
 const postgres = new Client({
-    user: "michaelcowden",
+    user: "nick",
     host: "localhost",
     database: "pictureservice"
 });

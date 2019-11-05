@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 const PORT = process.env.PORT || 8082;
 
 const postgres = new Client({
-  user: "michaelcowden",
+  user: "nick",
   host: "localhost",
   database: "pictureservice"
 });
